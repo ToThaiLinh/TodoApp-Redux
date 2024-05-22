@@ -17,7 +17,6 @@ const statusSelector  = (state) => state.filters.status;
 const prioritySelector  = (state) => state.filters.priority;
 const todoListSelector = (state) => state.todoList;
 
-
 export const todosListRemainingSelector = createSelector(
     [todoListSelector,
     searchTextSelector,
